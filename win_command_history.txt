@@ -1,0 +1,35 @@
+a
+pushd C:\WORKS\WS\cakephp-2.3.1
+gitk
+
+C:\WORKS\PROGRAMS\FreeMind\Freemind.exe C:\WORKS\WS\WS_Android~\FM\Cake\Cake.mm
+
+[Git]
+git init && g a . && gitk
+g a . && gitk
+
+git log --grep=master -6
+
+[master v-1.0 2013/05/06 14:24:11]----------------------------
+http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html
+
+CREATE TABLE posts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50),
+    body TEXT,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+INSERT INTO posts (title,body,created)
+    VALUES ('The title', 'This is the post body.', NOW());
+INSERT INTO posts (title,body,created)
+    VALUES ('A title once again', 'And the post body follows.', NOW());
+INSERT INTO posts (title,body,created)
+    VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
+
+
+aa
+============STORAGE============================
+
+============EOF============
