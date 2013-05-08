@@ -11,6 +11,7 @@ g a . && gitk
 git log --grep=master -6
 
 [master v-1.0 2013/05/06 14:24:11]----------------------------
+
 http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html
 
 CREATE TABLE posts (
@@ -28,6 +29,32 @@ INSERT INTO posts (title,body,created)
 INSERT INTO posts (title,body,created)
     VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
 
+[master v-2.0 2013/05/08 13:46:24]----------------------------
+<LOCAL>
+mysql -u root
+create database blog;
+show databases;
+
+use blog;
+
+CREATE TABLE posts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50),
+    body TEXT,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+show tables;
+
+INSERT INTO posts (title,body,created)
+    VALUES ('The title', 'This is the post body.', NOW());
+INSERT INTO posts (title,body,created)
+    VALUES ('A title once again', 'And the post body follows.', NOW());
+INSERT INTO posts (title,body,created)
+    VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
+
+SELECT * FROM posts;
 
 aa
 ============STORAGE============================
