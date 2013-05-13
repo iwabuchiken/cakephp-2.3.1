@@ -1,0 +1,14 @@
+abcdeabcde
+abcde
+abcde 1368361440
+abcde 1368396657
+[C:\WORKS\WS\Cake\cakephp-2.3.1\app\Controller\PostsController.php:75] 1
+
+[PostsController.php:78] 1
+
+[PostsController.php:78] count($this->request->data)=1
+
+[PostsController.php:78] count($this->request->data)=1
+
+[PostsController.php:79] PostsController
+

@@ -1,5 +1,9 @@
 a
-pushd C:\WORKS\WS\cakephp-2.3.1
+pushd C:\WORKS\WS\Cake\cakephp-2.3.1 && gitk
+
+http://localhost/cakephp-2.3.1/
+
+pushd C:\WORKS\WS\Cake\cakephp-2.3.1
 gitk
 
 C:\WORKS\PROGRAMS\FreeMind\Freemind.exe C:\WORKS\WS\WS_Android~\FM\Cake\Cake.mm

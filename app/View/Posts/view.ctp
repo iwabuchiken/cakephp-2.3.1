@@ -6,4 +6,5 @@
 
 <p><?php echo h($post['Post']['body']); ?></p>
 
-<a href="/posts/index">Back to the list</a>
+<a href="/cakephp-2.3.1/posts/index">Back to the list</a>
+<!-- <a href="/posts/index">Back to the list</a> -->
