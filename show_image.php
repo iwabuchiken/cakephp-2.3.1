@@ -22,6 +22,11 @@
 	
 ?>
 
+<hr/>
+<a href="http://cosmos-ifm-1.herokuapp.com/images" target="_blank">IFM_R_1</a><br/>
+<a href="http://cosmos-cr6.herokuapp.com/" target="_blank">CR6</a><br/>
+<a href="https://dashboard.heroku.com/apps" target="_blank">Heroku apps</a><br/>
+
 <!-- <a href="../images/toranomon_explanation-1.bmp">toranomon_explanation-1.bmp</a><br> -->
 
 <!-- <a href="../images/toranomon_explanation-2.bmp">toranomon_explanation-2.bmp</a><br> -->
